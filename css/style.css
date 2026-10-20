@@ -377,3 +377,144 @@ td {
 }
 
 /* end contact page */
+
+
+
+/* start validation page */
+.register-section {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.register-card {
+    background-color: #ffd502;
+    padding: 20px;
+    width: 100%;
+    max-width: 450px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.register-card h2 {
+    font-size: 1.25rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input {
+    padding: 10px;
+    font-size: 14px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: rgb(70, 55, 160);
+}
+
+.form-group input.invalid {
+    border-color: #e3000b;
+}
+
+.error {
+    color: #e3000b;
+    font-size: 13px;
+    font-weight: bold;
+    min-height: 16px;
+}
+
+.register-card .btn_container {
+    margin-top: 10px;
+}
+
+.register-card .btn,
+.register-card .btn-outline {
+    cursor: pointer;
+}
+
+.register-card .btn-outline {
+    color: #e3000b;
+}
+
+.success {
+    color: rgb(70, 55, 160);
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* end validation page */
+
+
+
+/* start data page */
+.data-section {
+    padding: 20px;
+    margin: 20px;
+}
+
+.data-section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.table-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.table-controls input {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 10px;
+}
+
+.table-controls .btn {
+    cursor: pointer;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.data-table th {
+    background-color: #ffd502;
+    padding: 10px;
+}
+
+.data-table td {
+    border-bottom: 1px solid #ddd;
+}
+
+.data-table tbody tr:hover {
+    background-color: rgba(51, 121, 196, 0.15);
+}
+
+.no-results {
+    display: none;
+    text-align: center;
+    margin-top: 15px;
+    color: #666;
+}
+
+/* end data page */
